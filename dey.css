@@ -3,7 +3,7 @@ p {
 }
 body {
   font-family: "Fira Sans", sans-serif;
-  background-color: lightgray;
+
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -22,14 +22,13 @@ ul a {
 
 /*** top part start ****/
 .top-part {
-  padding-bottom: 100px;
+  height: 500px;
 }
 .half-width {
   width: 40%;
   float: left;
   margin-left: 5%;
-  padding-left: 2%;
-  height: 600px;
+  padding-left: 4%;
 }
 .half-width h1 {
   font-size: 60px;
@@ -46,22 +45,99 @@ ul a {
   background-image: linear-gradient(55deg, salmon, #f71eec);
   color: white;
 }
-/*** top part start ****/
+/*** top end start ****/
+.about {
+  height: 500px;
+}
 /** -----------Start latest work part ****/
 .latest-work {
   text-align: center;
+  height: 500px;
+  clear: left;
 }
 .work {
-  margin-bottom: 100px;
-  width: 30%;
+  text-align: center;
+
+  width: 25%;
   float: left;
-  margin-left: 2%;
+  margin-left: 4%;
   padding-left: 1%;
-  height: 400px;
+
   box-shadow: 10px 10px 10px 3px #888888;
+  border: 1px solid #ddd;
+  border-radius: 20px;
 }
 
 .work img {
   width: 100%;
 }
 /** -----------end latest work part ****/
+
+/*************  start Contact part ************/
+.contact-part {
+  background-image: url("images/bg-third-part.jpg");
+  height: 320px;
+}
+.contact-part a {
+  float: right;
+  text-decoration: none;
+  padding: 14px 18px;
+  background-image: linear-gradient(55deg, salmon, #f71eec);
+  color: white;
+  border-radius: 10px;
+}
+.contact-part h2 {
+  font-size: 40px;
+}
+.h2-margin {
+  margin-top: 40px;
+}
+.h2-color {
+  color: salmon;
+}
+.contact-btn {
+  margin: 90px 0 0 70px;
+}
+/*************  end Contact part ************/
+/*************  start client feedback part ************/
+.client-feedback {
+  height: 400px;
+}
+.client-feedback h1 span {
+  color: salmon;
+}
+.client-feedback h1 {
+  font-size: 50px;
+  text-align: center;
+}
+.client {
+  text-align: center;
+  width: 28%;
+  float: left;
+  margin-left: 3%;
+  padding-left: 1%;
+  box-shadow: 10px 10px 10px 3px #888888;
+  border-radius: 20px;
+  margin-bottom: 60px;
+}
+.client img {
+  width: 90%;
+  height: 280px;
+}
+/*************  end client feedback part ************/
+/******** start footer partr ******/
+.icon-mail {
+  clear: left;
+  text-align: center;
+}
+.icon-mail h3 {
+  font-weight: lighter;
+}
+.icon {
+  font-size: 45px;
+  color: salmon;
+}
+.fa {
+  margin-left: 20px;
+}
+/******** end footer partr ******/
