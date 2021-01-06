@@ -11,13 +11,15 @@ body {
 
 nav ul {
   list-style-type: none;
-  margin-top: 10px;
+  height: 40px;
+  margin: 40px 120px 30px 0;
 }
 ul a {
   text-decoration: none;
-
-  float: left;
-  margin-left: 8px;
+  float: right;
+  margin-left: 12px;
+  color: black;
+  display: block;
 }
 
 /*** top part start ****/
@@ -41,26 +43,44 @@ ul a {
 }
 .btn1 {
   text-decoration: none;
-  padding: 10px 15px;
+  padding: 14px 25px;
   background-image: linear-gradient(55deg, salmon, #f71eec);
   color: white;
+  border-radius: 18px;
+  display: inline-block;
+  margin-top: 25px;
+}
+.btn1:hover {
+  background-image: linear-gradient(60deg, #0066ff, #ff00ff);
+  color: black;
 }
 /*** top end start ****/
+.btn1 i {
+  margin-right: 8px;
+}
 .about {
   height: 500px;
 }
 /** -----------Start latest work part ****/
 .latest-work {
   text-align: center;
-  height: 500px;
+  height: 600px;
   clear: left;
+  margin-top: 40px;
+  background-color: #d7d7d9;
+}
+.h1-latest {
+  font-size: 45px;
+}
+.latest-work span {
+  color: salmon;
 }
 .work {
   text-align: center;
-
-  width: 25%;
+  background-color: white;
+  width: 26%;
   float: left;
-  margin-left: 4%;
+  margin-left: 5%;
   padding-left: 1%;
 
   box-shadow: 10px 10px 10px 3px #888888;
